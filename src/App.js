@@ -1,5 +1,5 @@
 import './App.css';
-import Props from './Student';
+import Props from './Props';
 
 function App() {
   return (
