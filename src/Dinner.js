@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Dinner() {
+function Dinner(dish) {
     return (
         <div>
-            <h1>Today we are serving Chicken Karachi</h1>
+            <h1>Today we are serving {dish}</h1>
         </div>
     )
 }
