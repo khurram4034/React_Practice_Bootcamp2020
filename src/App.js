@@ -1,13 +1,13 @@
 import './App.css';
-import Dinner from './Dinner';
+import Student from './Student';
 
 function App() {
   return (
     <div className="App">
       <h1>Hellow Good Evening</h1>
-      <Dinner dishName='Baryani' sweetDish='Kheer' />
-      <Dinner dishName='Nahari'  sweetDish='Jalabi' />
-      <Dinner dishName='Qorma' sweetDish='Karjar ka halwa' />
+      <Student name='Khurram' age='34' />
+      <Student name='Farrukh'  age='31' />
+      <Student name='Faraz' age='29' />
 
      
     </div>
